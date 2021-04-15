@@ -8,3 +8,6 @@
 4. Load Unpacked > Select repo location
 5. Confirm that loaded extension is enabled
 6. Enjoy!
+
+
+Read for help on loading extensions - https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/
