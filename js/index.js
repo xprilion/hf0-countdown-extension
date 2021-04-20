@@ -1,4 +1,19 @@
+window.onload = function() {
+    var links = [
+        "fQVHIzPiBJE",
+        "zXLe6k6LaP8",
+        "K-CXfyN5fTs",
+        "Bm6s_kLIr-Q",
+        "s0jkx5xSb0U"
+    ];
+
+    randomLinkCode = links[Math.floor(Math.random() * links.length)];
+    randomLink = "<iframe src='https://www.youtube.com/embed/" + randomLinkCode + "?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1' frameborder='0' allowfullscreen></iframe>"
+    document.getElementById("video").innerHTML = randomLink;
+};
+
 (function() {
+
     const second = 1000,
         minute = second * 60,
         hour = minute * 60,
